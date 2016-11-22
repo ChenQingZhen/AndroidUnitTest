@@ -74,8 +74,5 @@ public class LoginPresenterTest {
         Mockito.when(spyValidator.verifyPassword(anyString())).thenReturn(true);
         Mockito.verify(spyValidator).verifyPassword("123");
     }
-    @Test
-    public void testLoginCallbackVersion() throws Exception {
 
-    }
 }
